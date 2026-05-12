@@ -1,0 +1,25 @@
+# 依赖
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# 环境变量
+.env
+.env.local
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# 构建产物
+dist/
+build/
+*.min.js
+*.min.css
