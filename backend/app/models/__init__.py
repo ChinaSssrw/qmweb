@@ -6,6 +6,8 @@ from app.models.space import Space, SpaceBooking
 from app.models.payment import Payment, PaymentType, PaymentStatus
 from app.models.audit import AuditRecord
 from app.models.status_interaction import StatusPost, InteractionStat
+from app.models.user_stats import UserStats
+from app.models.reaction import Reaction
 
 __all__ = [
     "User", "UserRole", "UserStatus",
@@ -16,4 +18,6 @@ __all__ = [
     "Payment", "PaymentType", "PaymentStatus",
     "AuditRecord",
     "StatusPost", "InteractionStat",
+    "UserStats",
+    "Reaction",
 ]
